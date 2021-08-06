@@ -1,2 +1,21 @@
 Django important Notes.
-*
+
+#all about github 
+create repo on cmd
+git init
+git add *     (* means all)
+git commit -m "first commit"
+git branch -m main
+git remote add origin {link(which repo u want to push  }
+           for django files link - https://github.com/omprakash104/django.git
+git push -u origin main
+
+#for runserver django project
+cmd, path of the file ( C:\Users\Om Prakash\Django)
+cd venv
+cd scripts
+activate
+cd .. (back)
+cd --(back to the main folder)
+python manage.py runserver (for server run)
+than use links and browse it
